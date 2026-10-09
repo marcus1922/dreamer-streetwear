@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Phosphor;
+  src: url(/assets/icons.woff2) format("woff2");
+  font-display: block;
+}
+.ph {
+  font-family: Phosphor !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  display: inline-block;
+}
+.ph-arrow-right:before {
+  content: "\e06c";
+}
+.ph-arrow-up-right:before {
+  content: "\e092";
+}
+.ph-arrows-out:before {
+  content: "\e0a2";
+}
+.ph-bag:before {
+  content: "\e0b0";
+}
+.ph-credit-card:before {
+  content: "\e1d2";
+}
+.ph-device-mobile:before {
+  content: "\e1e0";
+}
+.ph-download-simple:before {
+  content: "\e20c";
+}
+.ph-paper-plane-tilt:before {
+  content: "\e398";
+}
+.ph-x:before {
+  content: "\e4f6";
+}
