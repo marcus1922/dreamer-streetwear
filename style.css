@@ -4,18 +4,18 @@
    ========================================================= */
 @font-face {
   font-family: Dreamer;
-  src: url("/assets/display.woff2") format("woff2");
+  src: url("/display.woff2") format("woff2");
   font-display: swap;
   font-weight: 800;
 }
 @font-face {
   font-family: Body;
-  src: url("/assets/body.woff2") format("woff2");
+  src: url("/body.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: Editorial;
-  src: url("/assets/editorial.woff2") format("woff2");
+  src: url("/editorial.woff2") format("woff2");
   font-display: swap;
   font-style: italic;
 }
@@ -737,10 +737,10 @@ body.ready .display .line > span {
   mask: var(--mask) center / contain no-repeat;
 }
 .face-front {
-  --mask: url("/assets/hoodie.webp");
+  --mask: url("/hoodie.webp");
 }
 .face-back {
-  --mask: url("/assets/hoodie-back.webp");
+  --mask: url("/hoodie-back.webp");
 }
 .face .tint {
   background: var(--tint, transparent);

@@ -147,7 +147,7 @@ function showMediaLightbox(imageFile, title) {
   showInfoDialog(
     title,
     `
-    <img src="/assets/${imageFile}" alt="${title}" loading="lazy" />
+    <img src="/${imageFile}" alt="${title}" loading="lazy" />
     <p class="note" style="margin-top: 14px;">Archivo original del universo visual DREAMER®.</p>
   `
   );
